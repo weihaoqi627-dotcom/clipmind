@@ -71,7 +71,8 @@
     },
     "publish": {
       "provider": "generic",
-      "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/latest/download"
+      "url": "https://clipmind.oss-cn-hongkong.aliyuncs.com",
+      "channel": "latest"
     }
   },
   "devDependencies": {
