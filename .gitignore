@@ -1,0 +1,58 @@
+# ── 环境 / 配置 ──
+.env
+.env.*
+config.json.bak
+
+# ── 构建输出 ──
+dist/
+dist-electron/
+*.exe
+*.msi
+*.dmg
+*.AppImage
+*.snap
+
+# ── 依赖 ──
+node_modules/
+python_runtime/
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.venv/
+venv/
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── 日志 / 运行时数据 ──
+logs/
+*.log
+backend_data/
+downloads/
+output/
+workspace/
+_*_preview/
+_tmp_*/
+hf_engine/
+
+# ── 临时测试文件 / 调试文件 ──
+_crash.log
+_*.py
+_*.html
+_*.txt
+test_small.py
+config.json
+
+# ── 系统 ──
+.DS_Store
+Thumbs.db
+

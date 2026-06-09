@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "categories": {
+    "flower_text": "花字/文字特效",
+    "transition": "转场效果",
+    "entrance": "入场动画",
+    "exit": "出场动画",
+    "visual_effect": "视觉特效/画面处理",
+    "overlay": "叠层/UI元素",
+    "camera_move": "伪运镜",
+    "svg_animation": "SVG/Logo动画",
+    "lower_third": "下沿条/信息条",
+    "title_card": "标题卡/片头",
+    "data_viz": "数据可视化",
+    "gsap_composition": "GSAP 通用动画组合"
+  },
+  "presets": [
+    {
+      "id": "fx_pop_color",
+      "category": "flower_text",
+      "name": "弹出变色",
+      "description": "文字弹性弹出 + 随机颜色变化，适合强调关键词、卖点",
+      "tags": ["highlight", "energetic", "colorful", "pop", "caption"],
+      "type": "raw_html",
+      "verified": true,
+      "params": ["text", "font_family_primary", "duration"],
+      "template": {
+        "html": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\"></script>\n<style>\n*{margin:0;padding:0;box-sizing:border-box}\nbody{background:transparent;overflow:hidden;width:1280px;height:720px}\n#root{position:relative;width:1280px;height:720px;display:flex;align-items:center;justify-content:center;overflow:hidden}\n.c{display:inline-block;font-family:{font_family_primary};font-size:72px;font-weight:800;\n  text-shadow:0 2px 10px rgba(0,0,0,0.2);opacity:0;transform:scale(0) rotate(-15deg)}\n</style></head><body>\n<div id=\"root\" data-composition-id=\"main\" data-duration=\"2.5\" data-width=\"1280\" data-height=\"720\">\n<div class=\"c\">{text}</div>\n</div>\n<script>\nwindow.__timelines[\"main\"]=gsap.timeline({paused:true});\nconst tl=window.__timelines[\"main\"];\nconst colors=['#ff6b6b','#feca57','#48dbfb','#ff9ff3','#54a0ff','#5f27cd','#01a3a4','#f368e0'];\ntl.set('.c',{opacity:0,scale:0,rotation:-15})\ntl.to('.c',{opacity:1,scale:1,rotation:0,duration:0.5,ease:'back.out(3)'},0)\ntl.to('.c',{color:colors[0],duration:0.15},0.15)\ntl.to('.c',{color:colors[1],duration:0.15},0.3)\ntl.to('.c',{color:colors[2],duration:0.15},0.45)\ntl.to('.c',{color:colors[3],duration:0.15},0.6)\ntl.to('.c',{color:colors[4],duration:0.15},0.75)\ntl.to('.c',{color:'#fff',duration:0.1},0.9)\ntl.to('.c',{opacity:0,scale:0.8,duration:0.3,ease:'power2.in'},2.1)\nwindow.__hf={duration:2.5,seek:function(t){window.__timelines[\"main\"].seek(t,true)}}\n</script></body></html>",
+        "default_duration": 2.5
+      },
+      "created_at": "2026-05-27"
+    },
+    {
+      "id": "fx_multi_glow",
+      "category": "flower_text",
+      "name": "多色霓虹发光",
+      "description": "多色渐变 + 发光效果 + 呼吸脉冲，适合开场标题、重点突出",
+      "tags": ["highlight", "opening", "glow", "neon", "gradient"],
+      "type": "raw_html",
+      "verified": true,
+      "params": ["text", "font_family_primary", "duration"],
+      "template": {
+        "html": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\"></script>\n<style>\n*{margin:0;padding:0;box-sizing:border-box}\nbody{background:transparent;overflow:hidden;width:1280px;height:720px}\n#root{position:relative;width:1280px;height:720px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(ellipse,rgba(0,0,0,0.3) 0%,transparent 70%)}\n.main-text{font-family:{font_family_primary};font-size:80px;font-weight:900;letter-spacing:4px;\n  background:linear-gradient(135deg,#ff6b6b,#feca57,#48dbfb,#ff9ff3);\n  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;\n  filter:drop-shadow(0 0 20px rgba(255,107,107,0.6)) drop-shadow(0 0 60px rgba(72,219,251,0.3));\n  opacity:0;transform:scale(0.7)}\n</style></head><body>\n<div id=\"root\" data-composition-id=\"main\" data-duration=\"3\" data-width=\"1280\" data-height=\"720\">\n<div class=\"main-text\">{text}</div>\n</div>\n<script>\nwindow.__timelines[\"main\"]=gsap.timeline({paused:true});\nconst tl=window.__timelines[\"main\"];\ntl.set('.main-text',{opacity:0,scale:0.7})\ntl.to('.main-text',{opacity:1,scale:1,duration:0.6,ease:'back.out(2)'},0)\ntl.to('.main-text',{filter:'drop-shadow(0 0 30px rgba(255,107,107,0.8)) drop-shadow(0 0 80px rgba(72,219,251,0.4))',duration:0.5,yoyo:true,repeat:-1,ease:'sine.inOut'},0.5)\ntl.to('.main-text',{opacity:0,scale:0.8,duration:0.3,ease:'power2.in'},2.6)\nwindow.__hf={duration:3,seek:function(t){window.__timelines[\"main\"].seek(t,true)}}\n</script></body></html>",
+        "default_duration": 3.0
+      },
+      "created_at": "2026-05-27"
+    },
+    {
+      "id": "fx_word_reveal",
+      "category": "flower_text",
+      "name": "逐词显色",
+      "description": "文字逐词显示 + 颜色渐显，适合字幕金句逐词揭示",
+      "tags": ["caption", "highlight", "reveal", "colorful"],
+      "type": "raw_html",
+      "verified": false,
+      "params": ["text", "font_family_primary", "duration"],
+      "template": {
+        "html": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\"></script>\n<style>\n*{margin:0;padding:0;box-sizing:border-box}\nbody{background:transparent;overflow:hidden;width:1280px;height:720px}\n#root{position:relative;width:1280px;height:720px;display:flex;align-items:center;justify-content:center;overflow:hidden}\n.word{display:inline-block;font-family:{font_family_primary};font-size:48px;font-weight:600;\n  color:rgba(255,255,255,0.2);margin:0 8px;opacity:0;transform:translateY(20px)}\n</style></head><body>\n<div id=\"root\" data-composition-id=\"main\" data-duration=\"3\" data-width=\"1280\" data-height=\"720\">\n<div class=\"word\">{text}</div>\n</div>\n<script>\nwindow.__timelines[\"main\"]=gsap.timeline({paused:true});\nconst tl=window.__timelines[\"main\"];\nconst colors=['#ff6b6b','#feca57','#48dbfb','#ff9ff3','#54a0ff','#5f27cd','#01a3a4','#f368e0'];\ntl.set('.word',{opacity:0,y:20,color:'rgba(255,255,255,0.2)'})\ntl.to('.word',{opacity:1,y:0,color:colors[0],duration:0.4,ease:'power2.out'},0)\ntl.to('.word',{color:colors[1],duration:0.3},0.3)\ntl.to('.word',{color:colors[2],duration:0.3},0.6)\ntl.to('.word',{color:colors[3],duration:0.3},0.9)\ntl.to('.word',{color:colors[4],duration:0.3},1.2)\ntl.to('.word',{color:'#ffffff',duration:0.3},1.5)\ntl.to('.word',{opacity:0,y:-15,duration:0.3,ease:'power2.in'},2.6)\nwindow.__hf={duration:3,seek:function(t){window.__timelines[\"main\"].seek(t,true)}}\n</script></body></html>",
+        "default_duration": 3.0
+      },
+      "created_at": "2026-05-27"
+    },
+    {
+      "id": "fx_spring_bounce",
+      "category": "flower_text",
+      "name": "弹簧弹入",
+      "description": "文字从上方掉落 + 弹簧弹跳，适合搞笑标注、趣味文字",
+      "tags": ["caption", "highlight", "bounce", "fun", "playful"],
+      "type": "raw_html",
+      "verified": false,
+      "params": ["text", "font_family_primary", "duration"],
+      "template": {
+        "html": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\"></script>\n<style>\n*{margin:0;padding:0;box-sizing:border-box}\nbody{background:transparent;overflow:hidden;width:1280px;height:720px}\n#root{position:relative;width:1280px;height:720px;display:flex;align-items:center;justify-content:center;overflow:hidden}\n.main-text{font-family:{font_family_primary};font-size:64px;font-weight:700;color:#fff;\n  text-shadow:0 4px 20px rgba(0,0,0,0.3);opacity:0;transform:translateY(-200px)}\n.shadow{position:absolute;width:120px;height:16px;background:radial-gradient(ellipse,rgba(0,0,0,0.3) 0%,transparent 70%);bottom:35%;opacity:0}\n</style></head><body>\n<div id=\"root\" data-composition-id=\"main\" data-duration=\"2.5\" data-width=\"1280\" data-height=\"720\">\n<div class=\"shadow\"></div><div class=\"main-text\">{text}</div>\n</div>\n<script>\nwindow.__timelines[\"main\"]=gsap.timeline({paused:true});\nconst tl=window.__timelines[\"main\"];\ntl.set('.main-text',{opacity:0,y:-200})\ntl.set('.shadow',{opacity:0,scale:0.5})\ntl.to('.main-text',{opacity:1,y:0,duration:0.6,ease:'bounce.out'},0)\ntl.fromTo('.shadow',{opacity:0,scale:0.5},{opacity:1,scale:1,duration:0.6,ease:'bounce.out'},0)\ntl.to('.main-text',{y:-8,duration:0.1,ease:'none'},0.55)\ntl.to('.main-text',{y:0,duration:0.15,ease:'bounce.out'},0.65)\ntl.to('.main-text',{opacity:0,scale:0.9,duration:0.2,ease:'power2.in'},2.2)\nwindow.__hf={duration:2.5,seek:function(t){window.__timelines[\"main\"].seek(t,true)}}\n</script></body></html>",
+        "default_duration": 2.5
+      },
+      "created_at": "2026-05-27"
+    },
+    {
+      "id": "fx_typewriter",
+      "category": "flower_text",
+      "name": "打字机效果",
+      "description": "逐字打出文字 + 光标闪烁，适合数据揭示、数字滚动感",
+      "tags": ["caption", "highlight", "typewriter", "reveal", "data"],
+      "type": "raw_html",
+      "verified": false,
+      "params": ["text", "font_family_primary", "duration"],
+      "template": {
+        "html": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\"></script>\n<style>\n*{margin:0;padding:0;box-sizing:border-box}\nbody{background:transparent;overflow:hidden;width:1280px;height:720px}\n#root{position:relative;width:1280px;height:720px;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(ellipse,rgba(0,0,0,0.1) 0%,transparent 70%)}\n.type-wrap{position:relative}\n.main-text{font-family:{font_family_primary};font-size:56px;font-weight:500;color:#fff;\n  text-shadow:0 2px 8px rgba(0,0,0,0.2);white-space:nowrap;overflow:hidden;border-right:3px solid rgba(255,255,255,0.7);width:0;opacity:0}\n</style></head><body>\n<div id=\"root\" data-composition-id=\"main\" data-duration=\"3\" data-width=\"1280\" data-height=\"720\">\n<div class=\"type-wrap\"><div class=\"main-text\">{text}</div></div>\n</div>\n<script>\nwindow.__timelines[\"main\"]=gsap.timeline({paused:true});\nconst tl=window.__timelines[\"main\"];\nconst txt='{text}';\nconst chars=txt.length;\nconst charTime=0.08;\nconst totalTyping=chars*charTime;\ntl.set('.main-text',{opacity:1})\ntl.to('.main-text',{width:txt.length*40,duration:totalTyping,ease:'steps('+chars+')'},0)\ntl.to('.main-text',{borderColor:'transparent',duration:0.3,repeat:-1,yoyo:true,ease:'steps(1)'},0)\ntl.to('.main-text',{opacity:0,duration:0.3,ease:'power2.in'},2.6)\nwindow.__hf={duration:3,seek:function(t){window.__timelines[\"main\"].seek(t,true)}}\n</script></body></html>",
+        "default_duration": 3.0
+      },
+      "created_at": "2026-05-27"
+    },
+    {
+      "id": "fx_underline_grow",
+      "category": "flower_text",
+      "name": "下划线生长",
+      "description": "文字下方线条从左到右生长，适合金句、观点强调",
+      "tags": ["highlight", "caption", "underline", "grow", "emphasis"],
+      "type": "raw_html",
+      "verified": false,
+      "params": ["text", "font_family_primary", "duration"],
+      "template": {
+        "html": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\"></script>\n<style>\n*{margin:0;padding:0;box-sizing:border-box}\nbody{background:transparent;overflow:hidden;width:1280px;height:720px}\n#root{position:relative;width:1280px;height:720px;display:flex;align-items:center;justify-content:center;overflow:hidden}\n.main-text{font-family:{font_family_primary};font-size:60px;font-weight:700;color:#fff;position:relative;opacity:0;transform:translateY(-5px)}\n.uline{position:absolute;bottom:-4px;left:0;height:3px;border-radius:2px;width:0;\n  background:linear-gradient(90deg,#ff6b6b,#feca57)}\n</style></head><body>\n<div id=\"root\" data-composition-id=\"main\" data-duration=\"2.5\" data-width=\"1280\" data-height=\"720\">\n<div class=\"main-text\">{text}<div class=\"uline\"></div></div>\n</div>\n<script>\nwindow.__timelines[\"main\"]=gsap.timeline({paused:true});\nconst tl=window.__timelines[\"main\"];\ntl.set('.main-text',{opacity:0,y:-5})\ntl.to('.main-text',{opacity:1,y:0,duration:0.3,ease:'power2.out'},0)\ntl.to('.uline',{width:300,duration:0.4,ease:'power3.out'},0.15)\ntl.to('.uline',{background:'linear-gradient(90deg,#feca57,#48dbfb)',duration:0.5,yoyo:true,repeat:1,ease:'none'},0.3)\ntl.to('.main-text',{opacity:0,scale:0.95,duration:0.3,ease:'power2.in'},2.1)\nwindow.__hf={duration:2.5,seek:function(t){window.__timelines[\"main\"].seek(t,true)}}\n</script></body></html>",
+        "default_duration": 2.5
+      },
+      "created_at": "2026-05-27"
+    },
+    {
+      "id": "fx_split_apart",
+      "category": "flower_text",
+      "name": "文字裂开",
+      "description": "文字从中间裂开分裂 + 碎片飞散，适合转场过渡、结尾消散",
+      "tags": ["transition", "ending", "split", "dramatic"],
+      "type": "raw_html",
+      "verified": false,
+      "params": ["text", "font_family_primary", "duration"],
+      "template": {
+        "html": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\"></script>\n<style>\n*{margin:0;padding:0;box-sizing:border-box}\nbody{background:transparent;overflow:hidden;width:1280px;height:720px}\n#root{position:relative;width:1280px;height:720px;display:flex;align-items:center;justify-content:center;overflow:hidden}\n.half-l,.half-r{position:absolute;font-family:{font_family_primary};font-size:64px;font-weight:700;color:#fff;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,0.2)}\n.half-l{opacity:0;transform:translateX(0)}\n.half-r{opacity:0;transform:translateX(0)}\n.crack{position:absolute;width:4px;height:80px;background:rgba(255,255,255,0.3);opacity:0}\n</style></head><body>\n<div id=\"root\" data-composition-id=\"main\" data-duration=\"2.5\" data-width=\"1280\" data-height=\"720\">\n<div class=\"half-l\">{text}</div>\n<div class=\"half-r\"></div>\n<div class=\"crack\"></div>\n</div>\n<script>\nwindow.__timelines[\"main\"]=gsap.timeline({paused:true});\nconst tl=window.__timelines[\"main\"];\ntl.set('.half-l',{opacity:0,x:0})\ntl.set('.half-r',{opacity:0,x:0})\ntl.to('.half-l',{opacity:1,x:0,duration:0.4,ease:'power2.out'},0)\ntl.to('.half-r',{opacity:1,x:0,duration:0.4,ease:'power2.out'},0)\ntl.to('.crack',{opacity:1,scaleY:1,duration:0.1},0.35)\ntl.to('.crack',{opacity:0,scaleY:2,duration:0.2},0.45)\ntl.to('.half-l',{x:-120,opacity:0,duration:0.4,ease:'power3.in'},0.8)\ntl.to('.half-r',{x:120,opacity:0,duration:0.4,ease:'power3.in'},0.8)\nwindow.__hf={duration:2.5,seek:function(t){window.__timelines[\"main\"].seek(t,true)}}\n</script></body></html>",
+        "default_duration": 2.5
+      },
+      "created_at": "2026-05-27"
+    },
+    {
+      "id": "fx_fade_in",
+      "category": "flower_text",
+      "name": "平滑渐显",
+      "description": "文字平滑渐显 + 微上浮，经典简洁入场，适用所有场景",
+      "tags": ["caption", "highlight", "fade", "simple", "clean", "universal"],
+      "type": "raw_html",
+      "verified": false,
+      "params": ["text", "font_family_primary", "duration"],
+      "template": {
+        "html": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\"></script>\n<style>\n*{margin:0;padding:0;box-sizing:border-box}\nbody{background:transparent;overflow:hidden;width:1280px;height:720px}\n#root{position:relative;width:1280px;height:720px;display:flex;align-items:center;justify-content:center;overflow:hidden}\n.main-text{font-family:{font_family_primary};font-size:56px;font-weight:500;color:rgba(255,255,255,0.9);\n  text-shadow:0 2px 8px rgba(0,0,0,0.15);opacity:0;transform:translateY(8px)}\n</style></head><body>\n<div id=\"root\" data-composition-id=\"main\" data-duration=\"2.5\" data-width=\"1280\" data-height=\"720\">\n<div class=\"main-text\">{text}</div>\n</div>\n<script>\nwindow.__timelines[\"main\"]=gsap.timeline({paused:true});\nconst tl=window.__timelines[\"main\"];\ntl.set('.main-text',{opacity:0,y:8})\ntl.to('.main-text',{opacity:1,y:0,duration:0.5,ease:'power2.out'},0)\ntl.to('.main-text',{y:-3,duration:0.3,ease:'power1.out'},0.4)\ntl.to('.main-text',{y:0,duration:0.2},0.7)\ntl.to('.main-text',{opacity:0,duration:0.4,ease:'power1.in'},2.0)\nwindow.__hf={duration:2.5,seek:function(t){window.__timelines[\"main\"].seek(t,true)}}\n</script></body></html>",
+        "default_duration": 2.5
+      },
+      "created_at": "2026-05-27"
+    },
+    {
+      "id": "fx_rainbow_lines",
+      "category": "flower_text",
+      "name": "彩虹多行",
+      "description": "多行文字渐变色 + 逐行错开入场，适合标题、开场大字",
+      "tags": ["highlight", "opening", "rainbow", "colorful", "title"],
+      "type": "raw_html",
+      "verified": false,
+      "params": ["text", "font_family_primary", "duration"],
+      "template": {
+        "html": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\"></script>\n<style>\n*{margin:0;padding:0;box-sizing:border-box}\nbody{background:transparent;overflow:hidden;width:1280px;height:720px}\n#root{position:relative;width:1280px;height:720px;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}\n.line{font-family:{font_family_primary};font-size:48px;font-weight:700;margin:6px 0;\n  background:linear-gradient(135deg,#ff6b6b,#feca57,#48dbfb,#ff9ff3,#54a0ff);\n  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;\n  opacity:0;transform:translateX(-30px)}\n.l2{font-size:32px;font-weight:400}\n</style></head><body>\n<div id=\"root\" data-composition-id=\"main\" data-duration=\"3.5\" data-width=\"1280\" data-height=\"720\">\n<div class=\"line\">{text}</div>\n</div>\n<script>\nwindow.__timelines[\"main\"]=gsap.timeline({paused:true});\nconst tl=window.__timelines[\"main\"];\ntl.set('.line',{opacity:0,x:-30})\ntl.to('.line',{opacity:1,x:0,duration:0.5,ease:'power2.out'},0)\ntl.to('.line',{background:'linear-gradient(135deg,#54a0ff,#ff9ff3,#feca57,#ff6b6b,#48dbfb)',duration:1.5,repeat:-1,yoyo:true,ease:'none'},0.5)\ntl.to('.line',{opacity:0,x:30,duration:0.4,ease:'power2.in'},3.0)\nwindow.__hf={duration:3.5,seek:function(t){window.__timelines[\"main\"].seek(t,true)}}\n</script></body></html>",
+        "default_duration": 3.5
+      },
+      "created_at": "2026-05-27"
+    },
+    {
+      "id": "fx_vintage_collage",
+      "category": "flower_text",
+      "name": "复古拼贴",
+      "description": "复古色调 + 胶片颗粒 + 边框，适合 vlog、怀旧、文艺风格",
+      "tags": ["opening", "caption", "vintage", "film", "retro", "vlog"],
+      "type": "raw_html",
+      "verified": false,
+      "params": ["text", "font_family_primary", "duration"],
+      "template": {
+        "html": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<script src=\"https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js\"></script>\n<style>\n*{margin:0;padding:0;box-sizing:border-box}\nbody{background:transparent;overflow:hidden;width:1280px;height:720px}\n#root{position:relative;width:1280px;height:720px;display:flex;align-items:center;justify-content:center;overflow:hidden}\n.main-text{font-family:{font_family_primary};font-size:64px;font-weight:700;\n  color:#d4a853;text-shadow:2px 2px 0 rgba(100,60,20,0.3),0 0 30px rgba(180,120,40,0.15);\n  opacity:0;transform:translateY(30px) rotate(-2deg)}\n.vignette{position:absolute;width:100%;height:100%;background:radial-gradient(ellipse,transparent 60%,rgba(60,30,10,0.3) 100%);pointer-events:none;opacity:0}\n.grain{position:absolute;width:100%;height:100%;opacity:0.04;background-image:url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.5'/%3E%3C/svg%3E\");background-repeat:repeat;pointer-events:none;opacity:0}\n.border-frame{position:absolute;width:95%;height:90%;border:2px solid rgba(180,120,40,0.2);opacity:0}\n</style></head><body>\n<div id=\"root\" data-composition-id=\"main\" data-duration=\"3.5\" data-width=\"1280\" data-height=\"720\">\n<div class=\"vignette\"></div><div class=\"grain\"></div>\n<div class=\"border-frame\"></div><div class=\"main-text\">{text}</div>\n</div>\n<script>\nwindow.__timelines[\"main\"]=gsap.timeline({paused:true});\nconst tl=window.__timelines[\"main\"];\ntl.set('.main-text',{opacity:0,y:30,rotation:-2})\ntl.set('.vignette,.grain,.border-frame',{opacity:0})\ntl.to('.main-text',{opacity:1,y:0,duration:0.6,ease:'power2.out'},0)\ntl.to('.vignette',{opacity:1,duration:0.5,ease:'power2.out'},0.1)\ntl.to('.grain',{opacity:0.04,duration:0.3},0.2)\ntl.to('.border-frame',{opacity:1,duration:0.4,ease:'power2.out'},0.15)\ntl.to('.main-text',{opacity:0,scale:0.9,duration:0.4,ease:'power2.in'},3.0)\nwindow.__hf={duration:3.5,seek:function(t){window.__timelines[\"main\"].seek(t,true)}}\n</script></body></html>",
+        "default_duration": 3.5
+      },
+      "created_at": "2026-05-27"
+    }
+  ]
+}

@@ -1,0 +1,1646 @@
+{
+  "generated_at": "2026-06-01 00:47:50",
+  "total": 205,
+  "fonts": [
+    {
+      "name": "Aa麟兰宋",
+      "file": "Aa麟兰宋.ttf",
+      "path": "Aa麟兰宋.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 5.0
+    },
+    {
+      "name": "Alfa Slab One",
+      "file": "Alfa Slab One-Regular.ttf",
+      "path": "Alfa Slab One-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Amatic SC",
+      "file": "AmaticSC-Bold.ttf",
+      "path": "AmaticSC-Bold.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Anton",
+      "file": "Anton-Regular.ttf",
+      "path": "Anton-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Candara",
+      "file": "Candara.ttf",
+      "path": "Candara.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Candara",
+      "file": "Candarab.ttf",
+      "path": "Candarab.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Candara",
+      "file": "Candarai.ttf",
+      "path": "Candarai.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Candara Light",
+      "file": "Candaral.ttf",
+      "path": "Candaral.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Candara Light",
+      "file": "Candarali.ttf",
+      "path": "Candarali.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Candara",
+      "file": "Candaraz.ttf",
+      "path": "Candaraz.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Cascadia Code",
+      "file": "CascadiaCode.ttf",
+      "path": "CascadiaCode.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Cascadia Mono",
+      "file": "CascadiaMono.ttf",
+      "path": "CascadiaMono.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Coiny",
+      "file": "Coiny-Regular.ttf",
+      "path": "Coiny-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Corben",
+      "file": "Corben-Bold.ttf",
+      "path": "Corben-Bold.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "等线",
+      "file": "Deng.ttf",
+      "path": "Deng.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 15.6
+    },
+    {
+      "name": "等线",
+      "file": "Dengb.ttf",
+      "path": "Dengb.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 15.7
+    },
+    {
+      "name": "等线 Light",
+      "file": "Dengl.ttf",
+      "path": "Dengl.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 14.7
+    },
+    {
+      "name": "DynaPuff SemiBold",
+      "file": "DynaPuff-SemiBold.ttf",
+      "path": "DynaPuff-SemiBold.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Gabriola",
+      "file": "Gabriola.ttf",
+      "path": "Gabriola.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.7
+    },
+    {
+      "name": "字由点字墩墩体",
+      "file": "HelloFont ID DunDunTi.ttf",
+      "path": "HelloFont ID DunDunTi.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 1.6
+    },
+    {
+      "name": "字由点字黑糖",
+      "file": "HelloFont ID HeiTang.ttf",
+      "path": "HelloFont ID HeiTang.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 6.2
+    },
+    {
+      "name": "字由点字机械体",
+      "file": "HelloFont ID JiXieTi.ttf",
+      "path": "HelloFont ID JiXieTi.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 1.8
+    },
+    {
+      "name": "字由点字江湖体",
+      "file": "HelloFont ID JiangHuTi.ttf",
+      "path": "HelloFont ID JiangHuTi.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 5.3
+    },
+    {
+      "name": "字由点字匹喏曹",
+      "file": "HelloFont ID Pinocchio.ttf",
+      "path": "HelloFont ID Pinocchio.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 3.5
+    },
+    {
+      "name": "字由点字油漆体",
+      "file": "HelloFont ID YouQiTi.ttf",
+      "path": "HelloFont ID YouQiTi.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 29.8
+    },
+    {
+      "name": "字由点字大字报",
+      "file": "Hellofont ID DaZiBao.ttf",
+      "path": "Hellofont ID DaZiBao.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 1.7
+    },
+    {
+      "name": "字由点字烈金体",
+      "file": "Hellofont ID LieJinTi.ttf",
+      "path": "Hellofont ID LieJinTi.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 48.1
+    },
+    {
+      "name": "Ink Free",
+      "file": "Inkfree.ttf",
+      "path": "Inkfree.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Leelawadee UI Semilight",
+      "file": "LeelUIsl.ttf",
+      "path": "LeelUIsl.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Leelawadee UI",
+      "file": "LeelaUIb.ttf",
+      "path": "LeelaUIb.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Leelawadee UI",
+      "file": "LeelawUI.ttf",
+      "path": "LeelawUI.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Montserrat",
+      "file": "Montserrat-Bold.otf",
+      "path": "Montserrat-Bold.otf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Nirmala UI",
+      "file": "Nirmala.ttf",
+      "path": "Nirmala.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.4
+    },
+    {
+      "name": "Nirmala UI",
+      "file": "NirmalaB.ttf",
+      "path": "NirmalaB.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.4
+    },
+    {
+      "name": "Nirmala UI Semilight",
+      "file": "NirmalaS.ttf",
+      "path": "NirmalaS.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.5
+    },
+    {
+      "name": "Noto Sans",
+      "file": "NotoSans-Regular.ttf",
+      "path": "NotoSans-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.5
+    },
+    {
+      "name": "Noto Sans Arabic",
+      "file": "NotoSansArabic-Regular.ttf",
+      "path": "NotoSansArabic-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Noto Sans Bengali",
+      "file": "NotoSansBengali-Regular.ttf",
+      "path": "NotoSansBengali-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Noto Sans Hebrew",
+      "file": "NotoSansHebrew-Regular.ttf",
+      "path": "NotoSansHebrew-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "Noto Sans Khmer",
+      "file": "NotoSansKhmer-Regular.ttf",
+      "path": "NotoSansKhmer-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Noto Sans Myanmar",
+      "file": "NotoSansMyanmar-Regular.ttf",
+      "path": "NotoSansMyanmar-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Noto Sans SC",
+      "file": "NotoSansSC-VF.ttf",
+      "path": "NotoSansSC-VF.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 16.9
+    },
+    {
+      "name": "Noto Sans Symbols 2",
+      "file": "NotoSansSymbols2-Regular.ttf",
+      "path": "NotoSansSymbols2-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.2
+    },
+    {
+      "name": "Noto Sans Thai",
+      "file": "NotoSansThai-Regular.ttf",
+      "path": "NotoSansThai-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "Sigmar One",
+      "file": "SigmarOne-Regular.ttf",
+      "path": "SigmarOne-Regular.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "SimSun-ExtG",
+      "file": "SimsunExtG.ttf",
+      "path": "SimsunExtG.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 3.4
+    },
+    {
+      "name": "得意黑",
+      "file": "SmileySans-Oblique.ttf",
+      "path": "SmileySans-Oblique.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 2.0
+    },
+    {
+      "name": "思源黑体 CN Heavy",
+      "file": "SourceHanSansCN-Heavy.ttf",
+      "path": "SourceHanSansCN-Heavy.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 8.8
+    },
+    {
+      "name": "思源宋体 CN Heavy",
+      "file": "SourceHanSerifCN-Heavy.otf",
+      "path": "SourceHanSerifCN-Heavy.otf",
+      "type": "serif",
+      "chinese": true,
+      "size_mb": 12.9
+    },
+    {
+      "name": "Stilu",
+      "file": "Stilu-Regular.otf",
+      "path": "Stilu-Regular.otf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "ZY Aurora",
+      "file": "ZY Aurora.ttf",
+      "path": "ZY Aurora.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Coconut",
+      "file": "ZY Coconut.ttf",
+      "path": "ZY Coconut.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Elegant",
+      "file": "ZY Elegant.ttf",
+      "path": "ZY Elegant.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Eternity",
+      "file": "ZY Eternity.ttf",
+      "path": "ZY Eternity.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Fearless",
+      "file": "ZY Fearless.ttf",
+      "path": "ZY Fearless.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Fervent",
+      "file": "ZY Fervent.ttf",
+      "path": "ZY Fervent.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Frank",
+      "file": "ZY Frank.ttf",
+      "path": "ZY Frank.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Oliver",
+      "file": "ZY Oliver.ttf",
+      "path": "ZY Oliver.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Passion",
+      "file": "ZY Passion.ttf",
+      "path": "ZY Passion.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Radiance",
+      "file": "ZY Radiance.ttf",
+      "path": "ZY Radiance.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Resolute",
+      "file": "ZY Resolute.ttf",
+      "path": "ZY Resolute.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Superb",
+      "file": "ZY Superb.ttf",
+      "path": "ZY Superb.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "ZY Vigorous",
+      "file": "ZY Vigorous.ttf",
+      "path": "ZY Vigorous.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Cherish",
+      "file": "ZYCherish.ttf",
+      "path": "ZYCherish.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Lullaby",
+      "file": "ZYLullaby.ttf",
+      "path": "ZYLullaby.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "ZY Silhouette",
+      "file": "ZYSilhouette.ttf",
+      "path": "ZYSilhouette.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "Arial",
+      "file": "arial.ttf",
+      "path": "arial.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.0
+    },
+    {
+      "name": "Arial",
+      "file": "arialbd.ttf",
+      "path": "arialbd.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.9
+    },
+    {
+      "name": "Arial",
+      "file": "arialbi.ttf",
+      "path": "arialbi.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.7
+    },
+    {
+      "name": "Arial",
+      "file": "ariali.ttf",
+      "path": "ariali.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.7
+    },
+    {
+      "name": "Arial Black",
+      "file": "ariblk.ttf",
+      "path": "ariblk.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Bahnschrift",
+      "file": "bahnschrift.ttf",
+      "path": "bahnschrift.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Calibri",
+      "file": "calibri.ttf",
+      "path": "calibri.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.6
+    },
+    {
+      "name": "Calibri",
+      "file": "calibrib.ttf",
+      "path": "calibrib.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.5
+    },
+    {
+      "name": "Calibri",
+      "file": "calibrii.ttf",
+      "path": "calibrii.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.1
+    },
+    {
+      "name": "Calibri Light",
+      "file": "calibril.ttf",
+      "path": "calibril.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.4
+    },
+    {
+      "name": "Calibri Light",
+      "file": "calibrili.ttf",
+      "path": "calibrili.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.0
+    },
+    {
+      "name": "Calibri",
+      "file": "calibriz.ttf",
+      "path": "calibriz.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.1
+    },
+    {
+      "name": "Cambria",
+      "file": "cambriab.ttf",
+      "path": "cambriab.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.8
+    },
+    {
+      "name": "Cambria",
+      "file": "cambriai.ttf",
+      "path": "cambriai.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.9
+    },
+    {
+      "name": "Cambria",
+      "file": "cambriaz.ttf",
+      "path": "cambriaz.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.8
+    },
+    {
+      "name": "Comic Sans MS",
+      "file": "comic.ttf",
+      "path": "comic.ttf",
+      "type": "display",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Comic Sans MS",
+      "file": "comicbd.ttf",
+      "path": "comicbd.ttf",
+      "type": "display",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Comic Sans MS",
+      "file": "comici.ttf",
+      "path": "comici.ttf",
+      "type": "display",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Comic Sans MS",
+      "file": "comicz.ttf",
+      "path": "comicz.ttf",
+      "type": "display",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Consolas",
+      "file": "consola.ttf",
+      "path": "consola.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Consolas",
+      "file": "consolab.ttf",
+      "path": "consolab.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Consolas",
+      "file": "consolai.ttf",
+      "path": "consolai.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Consolas",
+      "file": "consolaz.ttf",
+      "path": "consolaz.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Constantia",
+      "file": "constan.ttf",
+      "path": "constan.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Constantia",
+      "file": "constanb.ttf",
+      "path": "constanb.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Constantia",
+      "file": "constani.ttf",
+      "path": "constani.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Constantia",
+      "file": "constanz.ttf",
+      "path": "constanz.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Corbel",
+      "file": "corbel.ttf",
+      "path": "corbel.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Corbel",
+      "file": "corbelb.ttf",
+      "path": "corbelb.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Corbel",
+      "file": "corbeli.ttf",
+      "path": "corbeli.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Corbel Light",
+      "file": "corbell.ttf",
+      "path": "corbell.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Corbel Light",
+      "file": "corbelli.ttf",
+      "path": "corbelli.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Corbel",
+      "file": "corbelz.ttf",
+      "path": "corbelz.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Courier New",
+      "file": "cour.ttf",
+      "path": "cour.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.8
+    },
+    {
+      "name": "Courier New",
+      "file": "courbd.ttf",
+      "path": "courbd.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.8
+    },
+    {
+      "name": "Courier New",
+      "file": "courbi.ttf",
+      "path": "courbi.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.6
+    },
+    {
+      "name": "Courier New",
+      "file": "couri.ttf",
+      "path": "couri.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.6
+    },
+    {
+      "name": "Ebrima",
+      "file": "ebrima.ttf",
+      "path": "ebrima.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.9
+    },
+    {
+      "name": "Ebrima",
+      "file": "ebrimabd.ttf",
+      "path": "ebrimabd.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.9
+    },
+    {
+      "name": "Metropolis Medium",
+      "file": "en.ttf",
+      "path": "en.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "Franklin Gothic Medium",
+      "file": "framd.ttf",
+      "path": "framd.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Franklin Gothic Medium",
+      "file": "framdit.ttf",
+      "path": "framdit.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Gadugi",
+      "file": "gadugi.ttf",
+      "path": "gadugi.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Gadugi",
+      "file": "gadugib.ttf",
+      "path": "gadugib.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Georgia",
+      "file": "georgia.ttf",
+      "path": "georgia.ttf",
+      "type": "serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Georgia",
+      "file": "georgiab.ttf",
+      "path": "georgiab.ttf",
+      "type": "serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Georgia",
+      "file": "georgiai.ttf",
+      "path": "georgiai.ttf",
+      "type": "serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Georgia",
+      "file": "georgiaz.ttf",
+      "path": "georgiaz.ttf",
+      "type": "serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Microsoft Himalaya",
+      "file": "himalaya.ttf",
+      "path": "himalaya.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.5
+    },
+    {
+      "name": "HoloLens MDL2 Assets",
+      "file": "holomdl2.ttf",
+      "path": "holomdl2.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "Impact",
+      "file": "impact.ttf",
+      "path": "impact.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "源ノ角ゴシック JP Medium",
+      "file": "ja.ttf",
+      "path": "ja.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 5.3
+    },
+    {
+      "name": "Javanese Text",
+      "file": "javatext.ttf",
+      "path": "javatext.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "본고딕 KR Medium",
+      "file": "ko.ttf",
+      "path": "ko.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 5.6
+    },
+    {
+      "name": "Lucida Sans Unicode",
+      "file": "l_10646.ttf",
+      "path": "l_10646.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Lucida Console",
+      "file": "lucon.ttf",
+      "path": "lucon.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "맑은 고딕",
+      "file": "malgun.ttf",
+      "path": "malgun.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 12.8
+    },
+    {
+      "name": "맑은 고딕",
+      "file": "malgunbd.ttf",
+      "path": "malgunbd.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 12.0
+    },
+    {
+      "name": "맑은 고딕 Semilight",
+      "file": "malgunsl.ttf",
+      "path": "malgunsl.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 4.8
+    },
+    {
+      "name": "Marlett",
+      "file": "marlett.ttf",
+      "path": "marlett.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "Microsoft Sans Serif",
+      "file": "micross.ttf",
+      "path": "micross.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.8
+    },
+    {
+      "name": "Myanmar Text",
+      "file": "mmrtext.ttf",
+      "path": "mmrtext.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Myanmar Text",
+      "file": "mmrtextb.ttf",
+      "path": "mmrtextb.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Mongolian Baiti",
+      "file": "monbaiti.ttf",
+      "path": "monbaiti.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "mstmc",
+      "file": "mstmc.ttf",
+      "path": "mstmc.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "Microsoft Yi Baiti",
+      "file": "msyi.ttf",
+      "path": "msyi.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 0.3
+    },
+    {
+      "name": "MV Boli",
+      "file": "mvboli.ttf",
+      "path": "mvboli.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Microsoft New Tai Lue",
+      "file": "ntailu.ttf",
+      "path": "ntailu.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Microsoft New Tai Lue",
+      "file": "ntailub.ttf",
+      "path": "ntailub.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Palatino Linotype",
+      "file": "pala.ttf",
+      "path": "pala.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.5
+    },
+    {
+      "name": "Palatino Linotype",
+      "file": "palab.ttf",
+      "path": "palab.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Palatino Linotype",
+      "file": "palabi.ttf",
+      "path": "palabi.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Palatino Linotype",
+      "file": "palai.ttf",
+      "path": "palai.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Microsoft PhagsPa",
+      "file": "phagspa.ttf",
+      "path": "phagspa.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Microsoft PhagsPa",
+      "file": "phagspab.ttf",
+      "path": "phagspab.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Segoe MDL2 Assets",
+      "file": "segmdl2.ttf",
+      "path": "segmdl2.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Segoe Print",
+      "file": "segoepr.ttf",
+      "path": "segoepr.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Segoe Print",
+      "file": "segoeprb.ttf",
+      "path": "segoeprb.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Segoe Script",
+      "file": "segoesc.ttf",
+      "path": "segoesc.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.6
+    },
+    {
+      "name": "Segoe Script",
+      "file": "segoescb.ttf",
+      "path": "segoescb.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.6
+    },
+    {
+      "name": "Segoe UI",
+      "file": "segoeui.ttf",
+      "path": "segoeui.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.9
+    },
+    {
+      "name": "Segoe UI",
+      "file": "segoeuib.ttf",
+      "path": "segoeuib.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.9
+    },
+    {
+      "name": "Segoe UI",
+      "file": "segoeuii.ttf",
+      "path": "segoeuii.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.5
+    },
+    {
+      "name": "Segoe UI Light",
+      "file": "segoeuil.ttf",
+      "path": "segoeuil.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.9
+    },
+    {
+      "name": "Segoe UI Semilight",
+      "file": "segoeuisl.ttf",
+      "path": "segoeuisl.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.8
+    },
+    {
+      "name": "Segoe UI",
+      "file": "segoeuiz.ttf",
+      "path": "segoeuiz.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.5
+    },
+    {
+      "name": "Segoe UI Black",
+      "file": "seguibl.ttf",
+      "path": "seguibl.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Segoe UI Black",
+      "file": "seguibli.ttf",
+      "path": "seguibli.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.3
+    },
+    {
+      "name": "Segoe UI Emoji",
+      "file": "seguiemj.ttf",
+      "path": "seguiemj.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 2.0
+    },
+    {
+      "name": "Segoe UI Historic",
+      "file": "seguihis.ttf",
+      "path": "seguihis.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 1.3
+    },
+    {
+      "name": "Segoe UI Light",
+      "file": "seguili.ttf",
+      "path": "seguili.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Segoe UI Semibold",
+      "file": "seguisb.ttf",
+      "path": "seguisb.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.9
+    },
+    {
+      "name": "Segoe UI Semibold",
+      "file": "seguisbi.ttf",
+      "path": "seguisbi.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Segoe UI Semilight",
+      "file": "seguisli.ttf",
+      "path": "seguisli.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.4
+    },
+    {
+      "name": "Segoe UI Symbol",
+      "file": "seguisym.ttf",
+      "path": "seguisym.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 2.3
+    },
+    {
+      "name": "仿宋",
+      "file": "simfang.ttf",
+      "path": "simfang.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 10.1
+    },
+    {
+      "name": "黑体",
+      "file": "simhei.ttf",
+      "path": "simhei.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 9.3
+    },
+    {
+      "name": "楷体",
+      "file": "simkai.ttf",
+      "path": "simkai.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 11.2
+    },
+    {
+      "name": "SimSun-ExtB",
+      "file": "simsunb.ttf",
+      "path": "simsunb.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 20.9
+    },
+    {
+      "name": "Sylfaen",
+      "file": "sylfaen.ttf",
+      "path": "sylfaen.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Symbol",
+      "file": "symbol.ttf",
+      "path": "symbol.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Tahoma",
+      "file": "tahoma.ttf",
+      "path": "tahoma.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.9
+    },
+    {
+      "name": "Tahoma",
+      "file": "tahomabd.ttf",
+      "path": "tahomabd.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.8
+    },
+    {
+      "name": "Microsoft Tai Le",
+      "file": "taile.ttf",
+      "path": "taile.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Microsoft Tai Le",
+      "file": "taileb.ttf",
+      "path": "taileb.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Noto Sans Thai",
+      "file": "th.ttf",
+      "path": "th.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Times New Roman",
+      "file": "times.ttf",
+      "path": "times.ttf",
+      "type": "serif",
+      "chinese": false,
+      "size_mb": 1.1
+    },
+    {
+      "name": "Times New Roman",
+      "file": "timesbd.ttf",
+      "path": "timesbd.ttf",
+      "type": "serif",
+      "chinese": false,
+      "size_mb": 1.1
+    },
+    {
+      "name": "Times New Roman",
+      "file": "timesbi.ttf",
+      "path": "timesbi.ttf",
+      "type": "serif",
+      "chinese": false,
+      "size_mb": 0.8
+    },
+    {
+      "name": "Times New Roman",
+      "file": "timesi.ttf",
+      "path": "timesi.ttf",
+      "type": "serif",
+      "chinese": false,
+      "size_mb": 0.9
+    },
+    {
+      "name": "Trebuchet MS",
+      "file": "trebuc.ttf",
+      "path": "trebuc.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Trebuchet MS",
+      "file": "trebucbd.ttf",
+      "path": "trebucbd.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Trebuchet MS",
+      "file": "trebucbi.ttf",
+      "path": "trebucbi.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Trebuchet MS",
+      "file": "trebucit.ttf",
+      "path": "trebucit.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Verdana",
+      "file": "verdana.ttf",
+      "path": "verdana.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Verdana",
+      "file": "verdanab.ttf",
+      "path": "verdanab.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Verdana",
+      "file": "verdanai.ttf",
+      "path": "verdanai.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Verdana",
+      "file": "verdanaz.ttf",
+      "path": "verdanaz.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.2
+    },
+    {
+      "name": "Webdings",
+      "file": "webdings.ttf",
+      "path": "webdings.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Wingdings",
+      "file": "wingding.ttf",
+      "path": "wingding.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Wingdings 2",
+      "file": "wingdng2.ttf",
+      "path": "wingdng2.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.1
+    },
+    {
+      "name": "Wingdings 3",
+      "file": "wingdng3.ttf",
+      "path": "wingdng3.ttf",
+      "type": "sans-serif",
+      "chinese": false,
+      "size_mb": 0.0
+    },
+    {
+      "name": "思源黑体 CN Medium",
+      "file": "zh-hans.ttf",
+      "path": "zh-hans.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 9.8
+    },
+    {
+      "name": "思源黑體 Medium",
+      "file": "zh-hant.ttf",
+      "path": "zh-hant.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 18.9
+    },
+    {
+      "name": "三极黑宋体 中粗",
+      "file": "三极黑宋体 中粗.ttf",
+      "path": "三极黑宋体 中粗.ttf",
+      "type": "serif",
+      "chinese": true,
+      "size_mb": 4.7
+    },
+    {
+      "name": "云书法三行魏碑体",
+      "file": "云书法三行魏碑体.ttf",
+      "path": "云书法三行魏碑体.ttf",
+      "type": "handwriting",
+      "chinese": true,
+      "size_mb": 5.1
+    },
+    {
+      "name": "倉耳絲柔體 標準",
+      "file": "仓耳丝柔体.ttf",
+      "path": "仓耳丝柔体.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 1.5
+    },
+    {
+      "name": "倉耳力士體 標準",
+      "file": "仓耳力士.ttf",
+      "path": "仓耳力士.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 1.4
+    },
+    {
+      "name": "凌丝体",
+      "file": "凌丝体.otf",
+      "path": "凌丝体.otf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 1.2
+    },
+    {
+      "name": "励字姚体简繁",
+      "file": "励字姚体简繁.ttf",
+      "path": "励字姚体简繁.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 3.4
+    },
+    {
+      "name": "青鸟华光仿宋2",
+      "file": "华光仿宋二.TTF",
+      "path": "华光仿宋二.TTF",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 14.4
+    },
+    {
+      "name": "文悦后现代体 (须授权) W4-75",
+      "file": "后现代体.otf",
+      "path": "后现代体.otf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 0.9
+    },
+    {
+      "name": "字由爱驾公路体",
+      "file": "字由爱驾.ttf",
+      "path": "字由爱驾.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 2.0
+    },
+    {
+      "name": "字语咏宋体",
+      "file": "字语咏宋体.ttf",
+      "path": "字语咏宋体.ttf",
+      "type": "serif",
+      "chinese": true,
+      "size_mb": 1.9
+    },
+    {
+      "name": "汉仪悠然体简",
+      "file": "悠然体.ttf",
+      "path": "悠然体.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 2.8
+    },
+    {
+      "name": "文悦新青年体 (非商用) W8",
+      "file": "新青年体.ttf",
+      "path": "新青年体.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 1.3
+    },
+    {
+      "name": "晴雪体",
+      "file": "晴雪体.otf",
+      "path": "晴雪体.otf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 2.6
+    },
+    {
+      "name": "倉耳知新體",
+      "file": "知新体.ttf",
+      "path": "知新体.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 1.5
+    },
+    {
+      "name": "站酷庆科黄油体",
+      "file": "站酷庆科黄油体.ttf",
+      "path": "站酷庆科黄油体.ttf",
+      "type": "sans-serif",
+      "chinese": true,
+      "size_mb": 9.3
+    }
+  ]
+}

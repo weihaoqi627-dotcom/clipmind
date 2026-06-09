@@ -1,0 +1,46 @@
+name: Build Release
+
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: 构建前端
+        run: npx vite build
+
+      # 下载嵌入版 Python 并装依赖（代替 gitignored python_runtime/）
+      - name: 准备嵌入版 Python
+        shell: pwsh
+        run: |
+          # 下载 Python 3.14 嵌入版
+          curl -LO https://www.python.org/ftp/python/3.14.3/python-3.14.3-embed-amd64.zip
+          Expand-Archive python-3.14.3-embed-amd64.zip -DestinationPath python_runtime
+          # 启用 site-packages
+          Add-Content python_runtime/python314._pth "import site"
+          # 装 pip
+          curl -LO https://bootstrap.pypa.io/get-pip.py
+          .\python_runtime\python.exe get-pip.py --no-warn-script-location
+          # 装依赖
+          .\python_runtime\python.exe -m pip install -r backend/requirements.txt --no-warn-script-location
+          .\python_runtime\python.exe -m pip install openai dashscope Pillow numpy opencv-python-headless requests curl_cffi uniface --no-warn-script-location
+
+      - name: 打包 exe
+        run: npx electron-builder --win portable
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: ClipMind-${{ github.ref_name }}
+          path: dist-electron/*.exe
