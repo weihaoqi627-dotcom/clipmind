@@ -2,6 +2,7 @@
   "name": "clipmind",
   "version": "1.0.0",
   "description": "ClipMind / 剪意 — AI 智能视频剪辑",
+  "author": "ClipMind",
   "main": "main.js",
   "scripts": {
     "dev:renderer": "node scripts/run-electron.js dev-all",
@@ -55,19 +56,26 @@
     "win": {
       "target": [
         {
-          "target": "nsis",
+          "target": "appx",
           "arch": ["x64"]
         },
         {
-          "target": "portable",
+          "target": "msi",
           "arch": ["x64"]
         }
       ],
       "signAndEditExecutable": false
     },
-    "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true
+    "msi": {
+      "perMachine": false,
+      "oneClick": true
+    },
+    "appx": {
+      "publisher": "CN=339B4B89-7547-415E-BE6D-326BE60AAC3C",
+      "identityName": "9CB93729.ClipMind",
+      "publisherDisplayName": "萨尔郎",
+      "languages": ["zh-CN", "en-US"],
+      "capabilities": ["runFullTrust", "internetClient"]
     },
     "publish": {
       "provider": "generic",

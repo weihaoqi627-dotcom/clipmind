@@ -10,8 +10,8 @@
  *   node scripts/build-portable.js
  *
  * 输出:
- *   dist-electron/ClipMind-1.0.0-setup.exe   (NSIS 安装包)
- *   dist-electron/ClipMind-1.0.0-portable.exe (便携版)
+ *   dist-electron/ClipMind-X.X.X.msi              (MSI 安装包)
+ *   dist-electron/ClipMind-X.X.X.appx             (Store 包)
  */
 
 const { execSync } = require('child_process')
